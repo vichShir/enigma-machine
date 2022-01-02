@@ -9,7 +9,9 @@ using namespace std;
 
 int main()
 {
-    Keyboard keyboard();
+    Keyboard keyboard;
 
-    cout << "Hello World" << endl;
+    keyboard.listen();
+
+    cout << "Keyboard Input: " << keyboard.getLetter() << endl;
 }
