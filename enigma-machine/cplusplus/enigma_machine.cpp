@@ -10,8 +10,11 @@ using namespace std;
 int main()
 {
     Keyboard keyboard;
+    Plugboard plug;
 
     keyboard.listen();
+    plug.pass(keyboard.getLetter());
 
     cout << "Keyboard Input: " << keyboard.getLetter() << endl;
+    cout << "Plugboard output: " << plug.getSwitchedLetter() << endl;
 }
