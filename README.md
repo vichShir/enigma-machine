@@ -24,3 +24,5 @@ No episódio **Batalha do Atlântico** da série documental **Segunda Guerra em 
 * https://docs.microsoft.com/pt-br/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170
 * https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm
 * https://www.geeksforgeeks.org/user-defined-custom-exception-with-class-in-c/
+* https://www.programiz.com/cpp-programming/library-function/cctype/toupper
+* https://www.w3schools.com/cpp/cpp_arrays.asp
