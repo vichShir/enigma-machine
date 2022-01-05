@@ -22,7 +22,7 @@ void Keyboard::listen()
         cout << "Enter a letter: ";
         cin >> c;
         checkInput(c);
-        letter = c;
+        letter = toupper(c);
     }
     catch(const inputIOException& e)
     {
